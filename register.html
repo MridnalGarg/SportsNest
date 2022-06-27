@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>SportsNest - register</title>
+	<link type="text/css" rel="stylesheet" href="css/nav.css" />
+	<link href="css/register.css" type="text/css" rel="stylesheet" />
+	<link type="text/css" rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+<!--Navigation Panel -->
+<nav class="navbar"></nav>
+<h2> Sign Up </h2>
+
+<form id="form1">
+    <div class="form-container">
+      <div class="personal-information">
+        <h2>Enter Your Personal Information</h2>
+      </div>
+      <p>
+      First Name<input id="column-left" type="text" name="first-name" required="required"placeholder="Enter First Name"/> <br>
+      Last Name<input id="column-right" type="text" name="last-name" required="required"placeholder="Enter Last Name"/> <br>
+        <label for="Email" class="floatLabel">Email</label>
+        <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>  <br>
+    <br>
+	  Password<input id="password" name="password" required="required" pattern=".{8,}" type="password">
+      <span>Enter a password longer than 8 characters</span>
+    <br>
+   
+      Confirm Password<input id="confirm_password" name="confirm_password" required="required" type="password">
+    <br>
+          <input id="input-button" type="submit" value="Submit"/>
+  </form>
+</div>
+<br>
+<!-- Footer -->
+<footer></footer>
+</body>
+<script src="js/register.js"></script>
+<script src="js/nav.js"> </script>
+<script src="js/footer.js"></script>
+</html>

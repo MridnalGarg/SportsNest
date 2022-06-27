@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>SportsNest - order</title>
+	<link type="text/css" rel="stylesheet" href="css/nav.css" />
+	<link href="css/register.css" type="text/css" rel="stylesheet" />
+	<link type="text/css" rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+<!--Navigation Panel -->
+<nav class="navbar"></nav>
+<h2> Place Your Order </h2>
+
+<form id="form1">
+    <div class="form-container">
+      <div class="personal-information">
+        <h2>Enter Your Personal Information</h2>
+      </div>
+      <p>
+      First Name<input id="column-left" type="text" name="first-name" required="required"placeholder="Enter First Name"/> <br>
+      Last Name<input id="column-right" type="text" name="last-name" required="required"placeholder="Enter Last Name"/> <br>
+      Address<input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Enter Complete Address"/> <br>
+     
+      City<input id="column-left" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="Enter City"/><br>
+      
+      Postal Code<input id="column-right" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="Enter ZIP code"/><br><br>
+      
+	  <label for="Email" class="floatLabel">Email</label>
+        <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>  <br>
+	  Item Code: <input id="column-right" type="text" name="itemcode" required="required" autocomplete="on" pattern="#[0-9]*" maxlength="5" placeholder="#1234" value="#"/><br><br>
+      
+	<br>
+          <input id="input-button" type="submit" value="Place Order"/>
+  </form>
+</div>
+<br>
+<!-- Footer -->
+<footer></footer>
+</body>
+<script src="js/buy.js"></script>
+<script src="js/nav.js"> </script>
+<script src="js/footer.js"></script>
+</html>
